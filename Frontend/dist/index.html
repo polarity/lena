@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lena The Game</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta property="og:url" content="http://scriptshit.de/lena-game/" />
+	<meta property="og:title" content="Lena The Game" />
+	<meta property="og:image" content="http://scriptshit.de/lena-game/lena.png" />
+	<meta property="og:type" content="game" />
+	<meta property="og:description" content="Lena, a jump and run game inspired by Mario Bros & Turrican." />
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	<style type="text/css">
+		@import url(http://fonts.googleapis.com/css?family=Fauna+One);
+		html {
+			background-image: url(media/start_background.gif);
+			background-size: cover;
+			background-color: #000;
+			color: #fff;
+			height: 100%;
+		}
+		html,body {
+			font-family: helvetica, arial, sans-serif;
+			margin: 0;
+			padding: 2em;
+			line-height: 2em;
+		}
+		h1 {
+			display:none;
+			margin-top: 0;
+			margin-bottom: 1em;
+			font-family: "Georgia", "serif";
+			font-size: 6em;
+			color: #f6f24a;
+			text-align: center;
+		}
+		a, a:link, a:visited {
+			color: #fff;
+		}
+		section {
+			font-family: "Fauna One", "Georgia", "serif";
+			width: 50%;
+			padding: 2em;
+			margin: 0 auto;
+			font-size: 1.2em;
+		}
+		article {
+			margin-bottom: 4em;
+		}
+		#disqus_thread {
+			max-width: 900px;
+			margin: 0 auto;
+		}
+		#canvas {
+			display: block;
+			margin: 0 auto;
+			border: 1px solid #555;
+		}
+	</style>
+	<script type="text/javascript" src="game.min.js?ver=012"></script>
+</head>
+<body>
+
+	<h1>Lena</h1>
+
+	<canvas id="canvas"></canvas>
+
+	<section>
+		<article>
+			<p>Jump and Run game inspired by Mario Bros & Turrican. Thanks to <a href="http://marie-schweiz.de/">Marie Schweiz</a> for graphics and sprites. Music, sound and code by <a href="http://scriptshit.de">Robert Agthe</a>.</p> 
+			<p>Use the arrow keys to move and jump. 
+			<br>Space to start the game. 
+			<br>Press "m" to dim or mute the music.</p>
+		</article>
+	</section>
+
+    <!-- Neuland -->
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-1374159-4']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+    <!-- Neuland -->
+
+</body>
+</html>
